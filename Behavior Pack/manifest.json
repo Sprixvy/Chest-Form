@@ -1,0 +1,42 @@
+{
+    "format_version": 2,
+
+    "header": {
+        "name": "Chest Form - Behavior Pack",
+        "description": "Created by Herobrine643928",
+        "uuid": "941049cd-03f1-414a-a43f-ebabaf44d4ef",
+        "min_engine_version": [1, 16, 100],
+        "version": [1, 0, 0]
+    },
+
+    "modules": [
+        {
+            "type": "data",
+            "description": "Data Module",
+            "uuid": "4951348b-891b-4fb3-8fa2-a47cc816e2a2",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "description": "Script Module",
+            "entry": "scripts/index.js",
+            "uuid": "48c81c64-a933-46c2-82ea-8a4d51e56516",
+            "version": [1, 0, 0]
+        }
+    ],
+
+    "dependencies": [
+        {
+            "uuid": "dd73e0ad-4c24-4753-a3c0-ddb8af98f179",
+            "version": [1, 0, 0]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "beta"
+        }
+    ]
+}

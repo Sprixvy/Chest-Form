@@ -1,0 +1,10 @@
+{
+    "$disable_09_slots": true,
+    "$disable_18_slots": true,
+    "$disable_27_slots": false,
+    "$disable_36_slots": true,
+    "$disable_45_slots": true,
+    "$disable_54_slots": false,
+
+    "$inventory_enabled": true
+}

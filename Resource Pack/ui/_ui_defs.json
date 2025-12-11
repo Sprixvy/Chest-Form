@@ -1,0 +1,6 @@
+{
+    "ui_defs": [
+        "ui/chest_ui/container.json",
+        "ui/chest_ui/inventory.json"
+    ]
+}

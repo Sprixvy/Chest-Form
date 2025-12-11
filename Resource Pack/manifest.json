@@ -1,0 +1,27 @@
+{
+    "format_version": 2,
+
+    "header": {
+        "name": "Chest Form - Resource Pack",
+        "description": "Created by Herobrine643928",
+        "uuid": "dd73e0ad-4c24-4753-a3c0-ddb8af98f179",
+        "min_engine_version": [1, 16, 100],
+        "version": [1, 0, 0]
+    },
+
+    "modules": [
+        {
+            "type": "resources",
+            "description": "Resources Module",
+            "uuid": "15ac5837-ea5f-4ca0-96e6-9ebb859e8d1e",
+            "version": [1, 0, 0]
+        }
+    ],
+
+    "dependencies": [
+        {
+            "uuid": "941049cd-03f1-414a-a43f-ebabaf44d4ef",
+            "version": [1, 0, 0]
+        }
+    ]
+}
