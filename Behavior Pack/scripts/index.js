@@ -1,5 +1,5 @@
 import { world } from '@minecraft/server';
-import { ChestFormData } from './extensions/main';
+import { ChestFormData } from './extensions/chest_form/main';
 world.afterEvents.itemUse.subscribe((evd) => {
     if (evd.itemStack.typeId !== 'minecraft:compass')
         return;
