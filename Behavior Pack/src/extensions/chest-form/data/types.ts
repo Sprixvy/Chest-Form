@@ -1486,14 +1486,17 @@ const itemTypes = new Map([
     ['minecraft:end_crystal', 841],
     ['minecraft:glow_berries', 842],
 ]);
+
 const dataTypes = new Map([
     ['minecraft:respawn_anchor_charge_0', -272],
     ['minecraft:respawn_anchor_charge_1', -272 + 1 / 65536],
     ['minecraft:respawn_anchor_charge_2', -272 + 2 / 65536],
     ['minecraft:respawn_anchor_charge_3', -272 + 3 / 65536],
     ['minecraft:respawn_anchor_charge_4', -272 + 4 / 65536],
+
     ['minecraft:barrel_closed', -203],
     ['minecraft:barrel_open', -203 + 1 / 65536],
+
     ['minecraft:redstone_wire_power_0', 55],
     ['minecraft:redstone_wire_power_1', 55 + 1 / 65536],
     ['minecraft:redstone_wire_power_2', 55 + 2 / 65536],
@@ -1510,6 +1513,7 @@ const dataTypes = new Map([
     ['minecraft:redstone_wire_power_13', 55 + 13 / 65536],
     ['minecraft:redstone_wire_power_14', 55 + 14 / 65536],
     ['minecraft:redstone_wire_power_15', 55 + 15 / 65536],
+
     ['minecraft:wheat_plant_stage_0', 59],
     ['minecraft:wheat_plant_stage_1', 59 + 1 / 65536],
     ['minecraft:wheat_plant_stage_2', 59 + 2 / 65536],
@@ -1518,7 +1522,9 @@ const dataTypes = new Map([
     ['minecraft:wheat_plant_stage_5', 59 + 5 / 65536],
     ['minecraft:wheat_plant_stage_6', 59 + 6 / 65536],
     ['minecraft:wheat_plant_stage_7', 59 + 7 / 65536],
+
     ['minecraft:wet_farmland', 60 + 1 / 65536],
+
     ['minecraft:snow_layer_0', 78],
     ['minecraft:snow_layer_1', 78 + 1 / 65536],
     ['minecraft:snow_layer_2', 78 + 2 / 65536],
@@ -1527,6 +1533,7 @@ const dataTypes = new Map([
     ['minecraft:snow_layer_5', 78 + 5 / 65536],
     ['minecraft:snow_layer_6', 78 + 6 / 65536],
     ['minecraft:snow_layer_7', 78 + 7 / 65536],
+
     ['minecraft:cake_block_slice_0', 92],
     ['minecraft:cake_block_slice_1', 92 + 1 / 65536],
     ['minecraft:cake_block_slice_2', 92 + 2 / 65536],
@@ -1534,6 +1541,7 @@ const dataTypes = new Map([
     ['minecraft:cake_block_slice_4', 92 + 4 / 65536],
     ['minecraft:cake_block_slice_5', 92 + 5 / 65536],
     ['minecraft:cake_block_slice_6', 92 + 6 / 65536],
+
     ['minecraft:brown_mushroom_block_bit_0', 99],
     ['minecraft:brown_mushroom_block_bit_1', 99 + 1 / 65536],
     ['minecraft:brown_mushroom_block_bit_2', 99 + 2 / 65536],
@@ -1550,6 +1558,7 @@ const dataTypes = new Map([
     ['minecraft:brown_mushroom_block_bit_13', 99 + 13 / 65536],
     ['minecraft:brown_mushroom_block_bit_14', 99 + 14 / 65536],
     ['minecraft:brown_mushroom_block_bit_15', 99 + 15 / 65536],
+
     ['minecraft:red_mushroom_block_bit_0', 100],
     ['minecraft:red_mushroom_block_bit_1', 100 + 1 / 65536],
     ['minecraft:red_mushroom_block_bit_2', 100 + 2 / 65536],
@@ -1566,18 +1575,25 @@ const dataTypes = new Map([
     ['minecraft:red_mushroom_block_bit_13', 100 + 13 / 65536],
     ['minecraft:red_mushroom_block_bit_14', 100 + 14 / 65536],
     ['minecraft:red_mushroom_block_bit_15', 100 + 15 / 65536],
+
     ['minecraft:attached_pumpkin_stem', 104 + 1 / 65536],
+
     ['minecraft:attached_melon_stem', 105 + 1 / 65536],
+
     ['minecraft:nether_wart_plant_stage_0', 115],
     ['minecraft:nether_wart_plant_stage_1', 115 + 1 / 65536],
     ['minecraft:nether_wart_plant_stage_2', 115 + 2 / 65536],
     ['minecraft:nether_wart_plant_stage_3', 115 + 3 / 65536],
+
     ['minecraft:filled_end_portal_frame', 120 + 4 / 65536],
+
     ['minecraft:cocoa_stage_0', 127],
     ['minecraft:cocoa_stage_1', 127 + 1 / 65536],
     ['minecraft:cocoa_stage_2', 127 + 2 / 65536],
     ['minecraft:cocoa_stage_3', 127 + 3 / 65536],
+
     ['minecraft:conditional_command_block', 137 + 8 / 65536],
+
     ['minecraft:carrots_stage_0', 141],
     ['minecraft:carrots_stage_1', 141 + 1 / 65536],
     ['minecraft:carrots_stage_2', 141 + 2 / 65536],
@@ -1586,6 +1602,7 @@ const dataTypes = new Map([
     ['minecraft:carrots_stage_5', 141 + 5 / 65536],
     ['minecraft:carrots_stage_6', 141 + 6 / 65536],
     ['minecraft:carrots_stage_7', 141 + 7 / 65536],
+
     ['minecraft:potatoes_stage_0', 142],
     ['minecraft:potatoes_stage_1', 142 + 1 / 65536],
     ['minecraft:potatoes_stage_2', 142 + 2 / 65536],
@@ -1594,6 +1611,7 @@ const dataTypes = new Map([
     ['minecraft:potatoes_stage_5', 142 + 5 / 65536],
     ['minecraft:potatoes_stage_6', 142 + 6 / 65536],
     ['minecraft:potatoes_stage_7', 142 + 7 / 65536],
+
     ['minecraft:black_standing_banner', 176],
     ['minecraft:red_standing_banner', 176 + 1 / 65536],
     ['minecraft:green_standing_banner', 176 + 2 / 65536],
@@ -1610,6 +1628,7 @@ const dataTypes = new Map([
     ['minecraft:magenta_standing_banner', 176 + 13 / 65536],
     ['minecraft:orange_standing_banner', 176 + 14 / 65536],
     ['minecraft:white_standing_banner', 176 + 15 / 65536],
+
     ['minecraft:black_wall_banner', 177],
     ['minecraft:red_wall_banner', 177 + 1 / 65536],
     ['minecraft:green_wall_banner', 177 + 2 / 65536],
@@ -1626,8 +1645,11 @@ const dataTypes = new Map([
     ['minecraft:magenta_wall_banner', 177 + 13 / 65536],
     ['minecraft:orange_wall_banner', 177 + 14 / 65536],
     ['minecraft:white_wall_banner', 177 + 15 / 65536],
+
     ['minecraft:conditional_repeating_command_block', 188 + 8 / 65536],
+
     ['minecraft:conditional_chain_command_block', 189 + 8 / 65536],
+
     ['minecraft:beetroots_stage_0', 244],
     ['minecraft:beetroots_stage_1', 244 + 1 / 65536],
     ['minecraft:beetroots_stage_2', 244 + 2 / 65536],
@@ -1636,12 +1658,14 @@ const dataTypes = new Map([
     ['minecraft:beetroots_stage_5', 244 + 5 / 65536],
     ['minecraft:beetroots_stage_6', 244 + 6 / 65536],
     ['minecraft:beetroots_stage_7', 244 + 7 / 65536],
+
     ['minecraft:structure_block_data', 252],
     ['minecraft:structure_block_save', 252 + 1 / 65536],
     ['minecraft:structure_block_load', 252 + 2 / 65536],
     ['minecraft:structure_block_corner', 252 + 3 / 65536],
     ['minecraft:structure_block_invalid', 252 + 4 / 65536],
     ['minecraft:structure_block_export', 252 + 5 / 65536],
+
     ['minecraft:splash_arrow', 332 + 1 / 65536],
     ['minecraft:mundane_arrow', 332 + 2 / 65536],
     ['minecraft:thick_arrow', 332 + 4 / 65536],
@@ -1661,6 +1685,7 @@ const dataTypes = new Map([
     ['minecraft:decay_arrow', 332 + 37 / 65536],
     ['minecraft:turtle_master_arrow', 332 + 38 / 65536],
     ['minecraft:slow_falling_arrow', 332 + 41 / 65536],
+
     ['minecraft:white_bed', 450],
     ['minecraft:orange_bed', 450 + 1 / 65536],
     ['minecraft:magenta_bed', 450 + 2 / 65536],
@@ -1677,6 +1702,7 @@ const dataTypes = new Map([
     ['minecraft:green_bed', 450 + 13 / 65536],
     ['minecraft:red_bed', 450 + 14 / 65536],
     ['minecraft:black_bed', 450 + 15 / 65536],
+
     ['minecraft:mundane_potion', 459 + 1 / 65536],
     ['minecraft:thick_potion', 459 + 3 / 65536],
     ['minecraft:awkward_potion', 459 + 4 / 65536],
@@ -1699,11 +1725,13 @@ const dataTypes = new Map([
     ['minecraft:weaving_potion', 459 + 44 / 65536],
     ['minecraft:oozing_potion', 459 + 45 / 65536],
     ['minecraft:infestation_potion', 459 + 46 / 65536],
+
     ['minecraft:mundane_splash_potion', 600 + 1 / 65536],
     ['minecraft:thick_splash_potion', 600 + 3 / 65536],
     ['minecraft:awkward_splash_potion', 600 + 4 / 65536],
-    ['minecraft:night_vision_splash_potion', 600 + 5 / 65536],
-    ['minecraft:leaping_splash_potion', 600 + 8 / 65536],
+    ['minecraft:nightvision_splash_potion', 600 + 5 / 65536],
+    ['minecraft:invisibility_splash_potion', 600 + 7 / 65536],
+    ['minecraft:leaping_splash_potion', 600 + 9 / 65536],
     ['minecraft:fire_resistance_splash_potion', 600 + 12 / 65536],
     ['minecraft:swiftness_splash_potion', 600 + 14 / 65536],
     ['minecraft:slowness_splash_potion', 600 + 17 / 65536],
@@ -1714,13 +1742,14 @@ const dataTypes = new Map([
     ['minecraft:regeneration_splash_potion', 600 + 28 / 65536],
     ['minecraft:strength_splash_potion', 600 + 31 / 65536],
     ['minecraft:weakness_splash_potion', 600 + 34 / 65536],
-    ['minecraft:decay_splash_potion', 600 + 36 / 65536],
+    ['minecraft:wither_splash_potion', 600 + 36 / 65536],
     ['minecraft:turtle_master_splash_potion', 600 + 37 / 65536],
     ['minecraft:slow_falling_splash_potion', 600 + 40 / 65536],
     ['minecraft:wind_charged_splash_potion', 600 + 43 / 65536],
     ['minecraft:weaving_splash_potion', 600 + 44 / 65536],
     ['minecraft:oozing_splash_potion', 600 + 45 / 65536],
-    ['minecraft:infestation_splash_potion', 600 + 46 / 65536],
+    ['minecraft:infested_splash_potion', 600 + 46 / 65536],
+
     ['minecraft:mundane_lingering_potion', 601 + 1 / 65536],
     ['minecraft:thick_lingering_potion', 601 + 3 / 65536],
     ['minecraft:awkward_lingering_potion', 601 + 4 / 65536],
@@ -1743,6 +1772,7 @@ const dataTypes = new Map([
     ['minecraft:weaving_lingering_potion', 601 + 44 / 65536],
     ['minecraft:oozing_lingering_potion', 601 + 45 / 65536],
     ['minecraft:infestation_lingering_potion', 601 + 46 / 65536],
+
     ['minecraft:black_banner', 606],
     ['minecraft:red_banner', 606 + 1 / 65536],
     ['minecraft:green_banner', 606 + 2 / 65536],
@@ -1760,4 +1790,5 @@ const dataTypes = new Map([
     ['minecraft:orange_banner', 606 + 14 / 65536],
     ['minecraft:white_banner', 606 + 15 / 65536],
 ]);
+
 export { dataTypes, itemTypes };
